@@ -17,3 +17,5 @@ key, val_1, val_2, ..., val_n
 see jexpt.csv
 
 this will work in any directory, as long as it is specified.
+
+the list program does a similar thing but outputs a list of json objects instead of just one.
