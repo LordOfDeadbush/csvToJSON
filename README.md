@@ -15,3 +15,5 @@ key, val_1, val_2, ..., val_n
 key, val_1, val_2, ..., val_n
 
 see jexpt.csv
+
+this will work in any directory, as long as it is specified.
