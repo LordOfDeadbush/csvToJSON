@@ -17,13 +17,15 @@ f.close()
 iterators = fileParsed[0]
 # print(name)
 # print(iterators)
-
+print(iterators)
 outputData = "["
 
 for i in fileParsed[1:]:
     # put key here:
     outputData += '{'
-    for j in range(len(iterators)):
+    for j in range(len(iterators)-1):
+        # print(i)
+        # print(j)
         outputData += '"' + iterators[j] + '":"' + i[j] + '",'
     outputData = outputData[:-1] + "},"
 outputData = outputData[:-1] + "]"
